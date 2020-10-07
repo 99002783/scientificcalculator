@@ -13,7 +13,8 @@ int main()
     while(X)
     {
         printf("\n");
-        printf("%s : ", KEY);
+        //printf("%s : ", KEY);
+        printf("enter the operation: ");
 
 
         Calc_oprn=getche();
