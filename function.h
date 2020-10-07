@@ -2,8 +2,11 @@
 #define __FUNCTION_H__
 
 #include <stdio.h>
-double FindSimple(double principle,double rate,double time);
-
-double FindCompound(double P, double R, double T);
-
+void addition();
+void subtraction();
+void multiplication();
+void division();
+void modulus();
+void power();
+int factorial();
 #endif
