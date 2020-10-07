@@ -2,35 +2,49 @@
 
 int main()
 {
-    int key;
-    printf("[1] Add\t[2] Subtract\t[3] Multiply\t[4] Divide\t[5]modulus\t[6]factorial\t[7]power\n");
-    scanf("%d", &key);
- 
-        switch(key)
+    int X=1;
+    char Calc_oprn;
+
+
+    // Function call
+    //calculator_operations();
+
+
+    while(X)
+    {
+        printf("\n");
+        printf("%s : ", KEY);
+
+
+        Calc_oprn=getche();
+
+        switch(Calc_oprn)
         {
-            case '1': add();
+            case '+': addition();
                       break;
- 
-            case '2': sub();
+
+            case '-': subtraction();
                       break;
- 
-            case '3': mul();
+
+            case '*': multiplication();
                       break;
- 
-            case '4': div();
+
+            case '/': division();
                       break;
- 
-            case '5': modulus();
+
+            case '?': modulus();
                       break;
- 
-            case '6': factorial();
+
+            case '!': factorial();
                       break;
- 
-            case '7': power();
-                      break;
-            default:
-             printf("\n**********You have entered unavailable option");
-             printf("***********\n");
- 
+
+
+            default : system("cls");
+
+    printf("\n**********You have entered unavailable option");
+   
+
         }
     }
+}
+
