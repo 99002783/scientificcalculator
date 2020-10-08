@@ -3,8 +3,8 @@
 
 #include <stdio.h>
 void addition();
-void subtraction(int,int);
-void multiplication(int,int);
+void subtraction();
+void multiplication();
 void division();
 void modulus();
 void power();
