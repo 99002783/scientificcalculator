@@ -15,9 +15,9 @@ void add()
     printf("Sum of %d numbers = %d \n",n,total);
 }
  
-void sub()
+void sub(int a,int b)
 { 
-    int a, b,c; 
+    int c; 
     printf("\nPlease enter first number  : "); 
     scanf("%d", &a); 
     printf("Please enter second number : "); 
@@ -26,9 +26,9 @@ void sub()
     printf("\n%d - %d = %d\n", a, b, c); 
 }
  
-void mul()
+void mul(int c,int d)
 {
-    int a, b, mul=0; 
+    int mul=0; 
     printf("\nPlease enter first numb   : "); 
     scanf("%d", &a); 
     printf("Please enter second number: "); 
