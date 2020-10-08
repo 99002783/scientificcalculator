@@ -6,8 +6,8 @@
 #define PROJECT_NAME "Function"
 
 /* Prototypes for all the test functions */
-void test_multiplication(int,int);
-void test_subtraction(int,int);
+void test_multiplication(void);
+void test_subtraction(void);
 
 
 /* Start of the application test */
@@ -37,7 +37,7 @@ int main() {
   return 0;
 }
 /* Write all the test functions */
-void multiplication(int,int) {
+void multiplication(void) {
   CU_ASSERT(12== multiplication(6,2));
   CU_ASSERT(21== multiplication(7,3));
   CU_ASSERT(75==multiplication(15,5));
@@ -48,7 +48,7 @@ void multiplication(int,int) {
   CU_ASSERT(15 == multiplication(4,3));
 }
 
-void FindCompound(int,int) {
+void FindCompound(void) {
   CU_ASSERT(5== subtraction(10,5));
   CU_ASSERT(2  == subtraction(7,5));
   CU_ASSERT( 1 == subtraction(3,-2));
