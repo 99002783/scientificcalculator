@@ -48,7 +48,7 @@ void multiplication(void) {
   CU_ASSERT(15 == multiplication(4,3));
 }
 
-void FindCompound(void) {
+void subtraction(void) {
   CU_ASSERT(5== subtraction(10,5));
   CU_ASSERT(2  == subtraction(7,5));
   CU_ASSERT( 1 == subtraction(3,-2));
