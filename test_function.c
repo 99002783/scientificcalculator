@@ -37,7 +37,7 @@ int main() {
   return 0;
 }
 /* Write all the test functions */
-void FindSimple(double,double,double) {
+void multiplication(int,int) {
   CU_ASSERT(12== multiplication(6,2));
   CU_ASSERT(21== multiplication(7,3));
   CU_ASSERT(75==multiplication(15,5));
@@ -48,7 +48,7 @@ void FindSimple(double,double,double) {
   CU_ASSERT(15 == multiplication(4,3));
 }
 
-void FindCompound(double,double,double) {
+void FindCompound(int,int) {
   CU_ASSERT(5== subtraction(10,5));
   CU_ASSERT(2  == subtraction(7,5));
   CU_ASSERT( 1 == subtraction(3,-2));
