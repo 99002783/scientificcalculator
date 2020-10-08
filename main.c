@@ -24,10 +24,10 @@ int main()
             case '+': addition();
                       break;
 
-            case '-': subtraction();
+            case '-': subtraction(num1,num2);
                       break;
 
-            case '*': multiplication();
+            case '*': multiplication(num1,num2);
                       break;
 
             case '/': division();
