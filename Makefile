@@ -1,5 +1,5 @@
 # Name of the project
-PROJECT_NAME = function
+PROJECT_NAME = scientificcalculator
 
 # Output directory
 BUILD = build
