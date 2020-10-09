@@ -10,7 +10,7 @@ function.c\
 
 # All test source files
 TEST_SRC = function.c\
-test_function.c
+test_function.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
